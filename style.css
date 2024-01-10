@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: bo;
+}
+body {
+  font-family: 'Lunasima', sans-serif;
+  font-family: 'REM', sans-serif;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 70%;
+  width: 80%;
+  margin-top: 20px;
+  position: relative;
+  box-shadow: black 2px;
+  box-shadow: 10px 10px 40px black;
+  margin-top: 4rem;
+
+}
+
+.navbar {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  height: 50px;
+  background-color: #003D74;
+  color: white;
+
+  
+}
+
+
+.nav-list button {
+  padding: 10px;
+  width: 8vw;
+  background-color: #003D74;
+  font-weight: 700;
+  font-size: 1vw;
+  color: white;
+  border: none;
+  display: none;
+
+
+}
+
+.nav-list button:hover {
+
+  
+  border-bottom: 2px solid black;
+  background-color: whitesmoke;
+  color: black;
+  transition: 0.7s ease ;
+  
+}
+
+
+.nav-list i {
+  display: none;
+}
+
+
+@media (max-width:600px) {
+  .navbar {
+    height: 80px;
+    padding: 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .logo{
+    display: block;
+    block-size: 10rem;
+   margin-left:  2%;
+   margin-top: 30px;
+    
+  }
+
+
+  .nav-list h3 {
+    display: none;
+  }
+
+  .nav-list i {
+    display: flex;
+    justify-content: center;
+    font-size: 5vw;
+  }
+  .nav-list button{
+    display: none;
+ 
+  }
+ 
+}
+
+
+.container {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.info {
+  flex: 1;
+  padding-left: 2rem;
+  font-size: 2rem;
+  height: 25rem;
+  width: 40%;  
+
+}
+
+.info span {
+  color: #003D74;
+
+}
+
+.info p {
+  font-size: 1.4vw;
+  line-height:1.5vw;
+}
+
+.info button {
+  padding: 17px;
+  margin-top: 30px;
+  width: 15vw;
+
+  background-color: #003D74;
+  font-weight: 700;
+  font-size: 1vw;
+  color: white;
+  border: none;
+
+}
+
+.info button:hover{
+
+  border-bottom: 2px solid black;
+  background-color: whitesmoke;
+  color: black;
+  transition: 0.7s ease ;
+}
+#image {
+  flex: 1;
+  height: 500px;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  overflow: hidden;
+ 
+  
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: 90%;
+ 
+}
+
+@media (max-width:600px) {
+  .container{
+    max-width: 100%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  }
+  
+}
+
+
